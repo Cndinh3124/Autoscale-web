@@ -1,18 +1,18 @@
-# 🚀 AWS Scalable Web System (PHP + MySQL)
+# AWS Scalable Web System (PHP + MySQL)
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates deploying a containerized web application (PHP + MySQL) on AWS with scalability, high availability, and automated infrastructure.
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 User → Load Balancer → EC2 → Docker (Web + MySQL)
 
 ---
 
-## ⚙️ Components
+##  Components
 
 * **EC2** – Hosts the application
 * **Docker & Docker Compose** – Containerized deployment
@@ -22,7 +22,7 @@ User → Load Balancer → EC2 → Docker (Web + MySQL)
 
 ---
 
-## 🔧 Deployment Steps
+##  Deployment Steps
 
 ### 1. Prepare Application
 
@@ -47,9 +47,9 @@ User → Load Balancer → EC2 → Docker (Web + MySQL)
 
 ---
 
-## 💻 Application Details (PHP + MySQL)
+##  Application Details (PHP + MySQL)
 
-### 🔹 Features
+###  Features
 
 * Homepage with banner, featured posts, and article list
 * Article detail page with related posts
@@ -63,7 +63,7 @@ User → Load Balancer → EC2 → Docker (Web + MySQL)
 
 ---
 
-### 🔹 Local Setup (Development)
+###  Local Setup (Development)
 
 1. Copy source to:
    `c:/wamp64/www/hoi_sinh_vien`
@@ -84,14 +84,14 @@ User → Load Balancer → EC2 → Docker (Web + MySQL)
 
 ---
 
-### 🔹 Default Admin Account
+###  Default Admin Account
 
 * Username: `admin`
 * Password: `admin123`
 
 ---
 
-### 🔹 Upload Directories
+###  Upload Directories
 
 * Post images: `uploads/posts`
 * Slider images: `uploads/slides`
@@ -100,7 +100,7 @@ Ensure write permission is enabled for these directories.
 
 ---
 
-## 📈 Result
+##  Result
 
 * Application deployed on AWS EC2
 * System can scale automatically based on traffic
@@ -110,7 +110,7 @@ Ensure write permission is enabled for these directories.
 
 ---
 
-## 📸 Screenshots (Add later)
+##  Screenshots (Add later)
 
 * EC2 instance running
 * Docker containers
@@ -119,7 +119,7 @@ Ensure write permission is enabled for these directories.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * AWS EC2
 * Elastic Load Balancer
@@ -130,7 +130,7 @@ Ensure write permission is enabled for these directories.
 
 ---
 
-## 🎯 Key Learning
+##  Key Learning
 
 * Deploying containerized applications on AWS
 * Designing scalable and highly available systems
